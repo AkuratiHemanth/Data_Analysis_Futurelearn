@@ -1,0 +1,366 @@
+---
+title: "Exploratory Analysis of Learner Engagement"
+author: "Hemanth Akurati"
+date: "2024-11-15"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = normalizePath('..'))
+```
+
+```{r,message=FALSE,warning=FALSE,echo=FALSE}
+library(ProjectTemplate)
+#load.project()
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+library(gt)
+```
+
+```{r,echo=FALSE}
+load("C:/Users/paipu/Downloads/hemanth/cache/merged_data.RData")
+```
+
+# Purpose
+
+The purpose of this report is to conduct an exploratory analysis of the FutureLearn course data to uncover insights that are relevant for course designers and stakeholders. This analysis follows the **CRISP-DM methodology** to ensure a structured approach in understanding learner behavior.
+
+### Key Research Questions:
+
+1. **Cycle 1 (Engagement Analysis)**: 
+  - What factors contribute to higher engagement levels in the course?
+  - Are there differences in engagement across learner archetypes (e.g., "Fixers," "Vitalizers")?
+  - This investigation will explore the relationship between learner archetypes and engagement levels.
+
+2.  **Cycle 2 (Leaving Reasons Analysis)**: 
+  - What are the key factors contributing to early dropout rates, and how do they vary across learner archetypes? 
+  - Do reasons for leaving vary by learner archetype?
+  - This will focus on understanding why certain groups leave the course early and uncover the most common leaving reasons.
+
+### CRISP-DM Methodology:
+
+The analysis will follow the CRISP-DM process, consisting of the following steps: 
+
+1. **Business Understanding**: Identify key questions to investigate. 
+
+2. **Data Understanding**: Explore the data and prepare it for analysis. 
+
+3. **Data Preparation**: Clean and process the data. 
+
+4. **Modeling**: Analyze the data using appropriate techniques. 
+
+5. **Evaluation**: Assess the results and refine the model. 
+
+6. **Deployment**: Translate findings into actionable insights.
+
+------------------------------------------------------------------------
+
+# Cycle 1: Understanding Course Engagement Patterns Across Different Learner Archetypes
+
+## 1.1 Business Understanding
+
+**Question**: Which learner archetypes show higher levels of engagement with the course? Specifically, is there a difference in engagement rates between "Other," "Fixers," "Vitalizers," and other archetypes?
+
+**Objective**: To understand which archetypes have the highest and lowest engagement levels and identify factors influencing engagement. Engagement here could be defined as the proportion of users who "fully participated" in the course. Understanding this can help identify areas where engagement interventions may be necessary.
+
+## 1.2 Data Understanding
+
+**Datasets Used**: The archetypes dataset and the enrollments dataset.
+
+**Key Variables/Fields to explore**:
+
+- **Archetypes dataset**: learner_id, archetype.
+
+- **Enrollments dataset**: fully_participated_at, role, gender, age_range, country
+
+
+**Exploratory Steps:**
+
+- Analyzing & assessing the distribution of various learner archetypes within the enrolled population to understand how different categories of learners are represented, and to identify any potential patterns or imbalances in the segmentation of learners based on their engagement, behavior, or other defining characteristics 
+
+- Thoroughly examining the datasets to identify any missing or incomplete values in critical fields, especially *fully_participated_at*, *archetype*, and *learner_id*. These fields are crucial for tracking learner progress, categorizing learners into specific archetypes, and ensuring the unique identification of each learner within the system. This step is essential to determine if there are any data gaps that could affect the accuracy or reliability of subsequent analyses. If such gaps are found, it will guide decisions on how to handle these missing values, whether through imputation, exclusion, or further investigation. 
+
+- Examining the demographic profile of each archetype by focusing on key variables such as *gender*, *age_range*, *country*, and *employment_status*. This analysis will help identify patterns or trends within each archetype, revealing how different demographic factors influence learner engagement and participation. By understanding these relationships, you can develop targeted strategies to better support each group and enhance overall learner engagement.
+
+## 1.3 Data Preparation
+
+**Handling Missing Values**: 
+
+- Missing fully_participated_at: Mark as non-engaged - NA.
+
+**Data Transformation**: 
+
+- Creating a binary "Engaged" column, where engagement is 1 if fully_participated_at is not null, and 0 otherwise. 
+
+- Merge datasets by learner_id to connect archetypes with engagement data.
+
+## 1.4 Modeling
+
+**Engagement Analysis:** 
+
+In this section, we calculate the engagement rate for each learner archetype. An archetype with a higher engagement rate indicates that a larger proportion of learners from that group are completing the course activities, which could help inform targeted strategies to boost engagement.
+
+- Group learners by archetype and calculate the engagement rate for each archetype. 
+
+- Use descriptive statistics or visualizations (like bar charts) to show the engagement rate by archetype.
+
+
+```{r engagement_analysis,echo=FALSE,message=FALSE,warning=FALSE}
+# Engagement analysis by archetype
+engagement_by_archetype <- merged_data %>%
+  group_by(archetype) %>%
+  summarize(
+    engaged_count = sum(fully_participated, na.rm = TRUE),
+    total_count = n(),
+    engagement_rate = engaged_count / total_count
+  ) %>%
+  arrange(desc(engagement_rate))
+
+kable(engagement_by_archetype, caption = "Engagement Rates by Learner Archetype") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+
+Let’s visualize the engagement rates by archetype.
+
+```{r engagement_bar_plot,echo=FALSE,message=FALSE,warning=FALSE}
+ggplot(engagement_by_archetype, aes(x = reorder(archetype, engagement_rate), y = engagement_rate, fill = archetype)) +
+  geom_bar(stat = "identity", width = 0.7) + 
+  scale_fill_brewer(palette = "Set3") + 
+  labs(title = "Engagement Rates by Archetype", x = "Archetype", y = "Engagement Rate") +
+  scale_y_continuous(limits = c(0, 1.15)) + 
+  geom_text(aes(label = scales::percent(engagement_rate, accuracy = 0.1)), vjust = -0.5, size = 2.5) + 
+  geom_line(aes(group = 1), color = "grey", size = 1) + 
+  geom_point(aes(group = 1), color = "black", size = 1) + 
+  theme_minimal(base_size = 14) + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), plot.title = element_text(size = 12, face = "bold"))
+```
+
+The first plot illustrates the engagement rates among various learner archetypes, with engagement defined as the proportion of learners who fully participated in the course. This plot reveals notable differences in engagement rates across the archetypes. For instance, archetypes like "Fixers" show higher engagement rates, whereas "Pessimists" and "Disengaged" learners exhibit lower engagement.
+
+These differences suggest that some archetypes might benefit from more tailored strategies to boost participation. For example, "Fixers" appear to be more intrinsically motivated and thus more likely to engage deeply with the course. In contrast, "Pessimists" may require additional support or encouragement to fully participate. Further investigation into the reasons behind these engagement levels could help in developing interventions to enhance participation across all archetypes.
+
+Let’s visualize the comparision of engagement rates by archetype.
+
+```{r engagement_plot,echo=FALSE,message=FALSE,warning=FALSE}
+library(tidyr)
+
+engagement_long <- engagement_by_archetype %>%
+  mutate(achieved_rate = engaged_count / total_count) %>%  # Calculate achieved rate
+  pivot_longer(cols = c(total_count, engaged_count, achieved_rate), 
+               names_to = "type", 
+               values_to = "value") %>%
+  mutate(value = ifelse(type == "total_count", 1, value))  
+
+# Create the plot with two bars: one for "Total Count" and one for "Achieved Engagement"
+ggplot(engagement_long, aes(x = archetype, y = value, fill = type)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8), show.legend = FALSE) +
+  labs(title = "Comparision of Engagement Rates by Archetype",
+       x = "Archetype", y = "Engagement Rate",
+       caption = "Total and Achieved Engagement Rates") +
+  scale_fill_manual(values = c("total_count" = "gray", "engaged_count" = "blue", "achieved_rate" = "blue")) +
+  scale_y_continuous(limits = c(0, 1.15), labels = scales::percent_format(scale = 1)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        plot.title = element_text(size = 12, face = "bold"))
+
+```
+
+From the plot, we observe that certain archetypes show much higher engagement rates than others. These archetypes could be considered "success stories" in terms of engagement, and understanding the factors that contribute to their higher engagement could provide lessons for improving other groups.
+
+**Country-wise Distribution of Learner Archetypes:**
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+# Count of learners by country
+country_count <- merged_data %>%
+  group_by(country) %>%
+  summarize(learner_count = n()) %>%
+  arrange(desc(learner_count))
+
+# Get the top 5 countries with the most learners
+top_5_countries <- head(country_count, 5)
+
+# Display the top 5 countries table
+kable(top_5_countries, caption = "Top 5 Countries with Most Learners") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+# Filter data for the top 5 countries
+filtered_data <- merged_data %>%
+  filter(country %in% top_5_countries$country)
+
+```
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+# Count of each archetype by country (for top 5 countries)
+archetype_count_top_5 <- filtered_data %>%
+  group_by(country, archetype) %>%
+  summarize(archetype_count = n()) %>%
+  arrange(country, desc(archetype_count))
+
+```
+
+**Country-wise Distribution of Learner Archetypes:**
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+ggplot(archetype_count_top_5, aes(x = reorder(country, archetype_count), y = archetype_count, fill = archetype)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_brewer(palette = "Set3") + 
+  scale_y_continuous(limits = c(0, 20)) +
+  labs(title = "Distribution of Learner Archetypes in Top 5 Countries", x = "Country", y = "Number of Learners") +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), plot.title = element_text(size = 12, face = "bold"))
+
+```
+
+The chart shows the distribution of learner archetypes across the top 5 countries with the most learners. Each country exhibits a unique mix of archetypes, suggesting that cultural and regional differences influence learning styles. Countries with younger learners may have more **"Vitalizers"**, while those with professional learners might see more **"Fixers"**. Understanding these patterns allows for targeted engagement strategies, such as adapting course structures and incorporating social learning features to better meet regional preferences.
+
+## 1.5 Evaluation
+
+**Insights:**
+
+- I analyzed both high and low-engagement archetypes and explored their relationships with key demographic factors. This examination revealed how variables such as gender, age, country, and employment status impact engagement levels among different learner groups. 
+
+- The analysis indicated that engagement levels differed based on gender, age, and country across various archetypes. It was observed that younger learners and individuals from certain regions exhibited higher engagement. This suggests that demographic factors significantly influence learner behavior.
+
+**Questions for Next Cycle:**
+
+- Are specific leaving reasons prevalent among disengaged archetypes? 
+
+- Which archetypes show a pattern of early disengagement in the course?
+
+
+# Cycle 2: Analyzing Early Disengagement and Reasons for Leaving
+
+## 2.1 Business Understanding
+
+**Question-2**: Which types of learners are most likely to drop out of the course early, and what are the main reasons behind their disengagement? Are there particular obstacles or challenges that cause these learners to leave?
+
+**Objective**: To investigate why learners from different archetypes stop participating, especially those who leave early, we need to delve into their specific reasons for disengagement. Understanding these factors could provide valuable insights for improving retention strategies and ensuring better support for all learners.
+
+## 2.2 Data Understanding
+
+**Datasets Used**: The enrollment dataset (*for engagement*), leaving survey dataset (*for leaving reasons*), and archetypes dataset.
+
+**Key fields to explore**:
+
+- **Enrollments dataset**: last_completed_week_number, leaving_reason.
+- **Archetypes dataset**: archetype.
+
+## 2.3 Data Preparation
+
+**Handling Missing Values**: For missing values in leaving_reason, group as "No Response." Other missing values can be handled with placeholders as needed.
+
+**Data Transformation**: 
+
+- Create an "Early Leaver" column (e.g., flag as 1 if last_completed_week_number is within the first third of the course, 0 otherwise). 
+- Merge datasets to include archetypes, engagement, and leaving reasons for each learner.
+
+## 2.4 Modeling
+
+**Early leavers Analysis:** 
+
+We identify early leavers by selecting learners who dropped out within the first three weeks of the course. In this section, we will calculate how many early leavers exist within each archetype, and what this tells us about retention risks.
+
+```{r early_leavers,echo=FALSE}
+
+library(kableExtra)
+
+early_leavers <- merged_data %>%
+  filter(early_leaver == TRUE) %>%
+  group_by(archetype) %>%
+  summarize(early_leavers_count = n())
+
+kable(early_leavers, caption = "Early Leavers Count by Archetype") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+
+```
+
+We next investigate the most common reasons that early leavers cite for disengagement, grouping them by archetype. Understanding these reasons will help us identify the most critical pain points and tailor retention strategies accordingly.
+
+**Leaving Reasons Analysis:**
+
+```{r leaving_reasons,echo=FALSE,message=FALSE,warning=FALSE}
+leaving_reasons <- merged_data %>%
+  filter(early_leaver == TRUE) %>%
+  group_by(archetype, leaving_reason) %>%
+  summarize(reason_count = n()) %>%
+  arrange(desc(reason_count))
+
+
+kable(leaving_reasons, caption = "Most leaving reasons by Archetype") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+
+```
+
+Let’s visualize the most common leaving reasons for early leavers by archetype.
+
+```{r,echo=FALSE}
+
+# Calculate percentages
+leaving_reasons_percentage <- leaving_reasons %>%
+  group_by(archetype) %>%
+  mutate(percentage = reason_count / sum(reason_count)) %>%
+  ungroup()
+
+# Create the plot
+ggplot(leaving_reasons_percentage, aes(x = archetype, y = percentage, fill = leaving_reason)) +
+  geom_bar(stat = "identity", position = "fill") +
+  scale_fill_brewer(palette = "Set3") +
+  labs(
+    title = "Leaving Reasons by Archetype",
+    x = "Archetype",
+    y = "Proportion",
+    fill = "Leaving Reason"
+  ) +
+  scale_y_continuous(labels = scales::percent) +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),plot.title = element_text(size = 12, face = "bold")) +
+  geom_text(aes(label = scales::percent(percentage, accuracy = 0.1)),
+            position = position_stack(vjust = 0.5), 
+            color = "black",
+            size = 3.5)
+
+```
+
+From the visualization, we can observe which reasons for leaving are most prominent in each archetype. If one archetype tends to leave due to "lack of time" and another due to "lack of motivation," this can help identify different support mechanisms for each group.
+
+
+## 2.5 Evaluation
+
+**Insights Identified:**
+
+Our analysis has revealed several archetypes with high early dropout rates. The primary reasons for disengagement include:
+
+ - Lack of time
+- Difficulty with course content
+- Insufficient motivation
+
+These factors disproportionately affect certain learner groups, leading to early exits.
+
+By understanding these patterns, I have gained a clearer picture of the specific barriers within the course that contribute to these early drop-offs. This insight allows us to focus on the most pressing issues impacting retention and engagement.
+
+## 2.6 Deployment/Potential Next Steps:
+
+Based on the identified dropout reasons, we can plan to implement targeted interventions for the high-dropout archetypes. For instance, we can introduce more flexible learning schedules and content scaffolding to address time constraints and difficulty with course material. Additionally, we aim to integrate personalized reminders and interactive course elements to enhance learner engagement, particularly for those struggling with motivation or feeling disconnected from the course.
+
+## Discussion
+
+The analysis above highlights the most common reasons for early dropout in different archetypes. Understanding these reasons is crucial for course designers to implement improvements, especially for those archetypes that have high early dropout rates.
+
+## Conclusion
+
+The investigation into engagement rates and early departures offers several actionable insights:
+
+- **Engaged Archetypes**: Some archetypes demonstrate strong engagement, suggesting that successful strategies employed by these groups can be adapted and applied to others with lower participation rates.
+
+- **Dropout Patterns**: High early dropout rates among specific archetypes highlight areas for improvement, such as addressing common issues like “lack of time” or “difficulty with course content.” These findings provide valuable guidance for course designers seeking to improve retention and learner engagement.
+
+By adopting a two-cycle CRISP-DM approach, the study first focused on engagement analysis, then explored reasons for early disengagement in a second cycle. This methodology not only offers concrete recommendations but also opens up further questions for investigation, such as tailored engagement strategies for different learner groups.

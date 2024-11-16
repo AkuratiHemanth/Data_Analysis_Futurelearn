@@ -1,0 +1,404 @@
+"id","learner_id","left_at","leaving_reason","last_completed_step_at","last_completed_step","last_completed_week_number","last_completed_step_number"
+"212","cbeff0e9-104a-4b4e-ab8d-0e9d4a73f02e","2017-11-24 16:05:42 UTC","I don’t have enough time",NA,NA,NA,NA
+"747","7f52aeb2-68b1-4d89-b167-d6b5a104138b","2017-11-25 10:52:20 UTC","I prefer not to say","2017-11-25 10:45:28 UTC","3.20","3","20"
+"785","a153788d-39f2-40f1-a360-ab944ee612bb","2017-11-25 12:33:05 UTC","I don’t have enough time",NA,NA,NA,NA
+"2831","5cbc8827-23de-415c-aa41-b3f2c9f28c0f","2017-11-27 17:51:03 UTC","The course wasn’t what I expected","2017-11-20 18:01:15 UTC","1.16","1","16"
+"2948","efbd0ec1-d3f2-490f-9a21-b423ff9e4e93","2017-11-27 20:01:27 UTC","I don’t have enough time",NA,NA,NA,NA
+"4681","74082dd9-2f29-4d39-a050-f76849f92747","2017-11-29 14:33:12 UTC","The course required more time than I realised",NA,NA,NA,NA
+"5010","173449ed-285f-4b8c-8459-e270fd14eb5d","2017-11-29 18:00:23 UTC","Other","2017-11-29 17:57:41 UTC","3.20","3","20"
+"5012","f5cb04e7-e09a-4cce-8f28-4a04b203f27a","2017-11-29 18:02:17 UTC","The course won’t help me reach my goals","2017-11-28 21:01:21 UTC","1.15","1","15"
+"5459","5b4373c7-72cf-4675-8af6-c5589497d392","2017-11-30 01:17:18 UTC","The course wasn’t what I expected","2017-11-19 22:02:09 UTC","1.1","1","1"
+"5847","c91a3011-462a-48be-9f8e-cedfd5b4848b","2017-11-30 09:41:20 UTC","The course required more time than I realised",NA,NA,NA,NA
+"7128","43c35215-ed8f-4abc-9b7d-dd248cba97dc","2017-12-01 06:42:24 UTC","I prefer not to say",NA,NA,NA,NA
+"7398","70da3dc8-7cb2-42e1-b006-bf6ae42501aa","2017-12-01 11:34:29 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"7414","daaabc3c-f315-4727-a658-8e22eb682e07","2017-12-01 12:03:46 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"7493","02fbf753-9bbe-4236-a0a6-a5d25f3d65f8","2017-12-01 13:33:27 UTC","The course wasn’t what I expected","2017-12-01 13:31:56 UTC","3.20","3","20"
+"7541","f9d649e9-610e-4736-bbc6-a2d678a40857","2017-12-01 14:12:01 UTC","The course required more time than I realised",NA,NA,NA,NA
+"8286","775f68da-3630-474e-b886-1a8b606735cb","2017-12-02 07:22:21 UTC","Other",NA,NA,NA,NA
+"8287","775f68da-3630-474e-b886-1a8b606735cb","2017-12-02 07:23:18 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"11330","5b43e50b-a7a6-4498-b340-6c58ca39de40","2017-12-04 05:20:37 UTC","I don’t have enough time",NA,NA,NA,NA
+"11479","307a085e-b29b-43d0-aeb4-88fab233a3a6","2017-12-04 07:01:20 UTC","I prefer not to say","2017-12-28 15:31:12 UTC","1.8","1","8"
+"11930","1139938f-3772-40c7-bee2-53a77f1cb878","2017-12-04 11:40:31 UTC","Other","2017-11-17 18:28:42 UTC","1.2","1","2"
+"12343","97a8b4d1-4a50-402b-8ead-442caf9a5396","2017-12-04 14:00:40 UTC","The course required more time than I realised",NA,NA,NA,NA
+"12544","7fe2aa85-7eb9-43cb-a68f-4ebf6a625d66","2017-12-04 15:00:18 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"13637","ef7ecae6-4a0c-48f0-bd27-2bc3d55a7942","2017-12-04 23:47:58 UTC","The course was too easy",NA,NA,NA,NA
+"13663","470171ac-7fc9-47bc-bfca-819682ae75ca","2017-12-05 00:22:18 UTC","The course required more time than I realised","2017-11-15 02:47:29 UTC","1.3","1","3"
+"14154","a9d385ab-5785-43d4-a126-bd7f070b932c","2017-12-05 09:29:09 UTC","The course required more time than I realised","2017-11-15 12:31:47 UTC","1.19","1","19"
+"15137","206f1ef2-408a-4ede-a3d2-edbceea5d0c9","2017-12-05 19:35:56 UTC","The course wasn’t what I expected","2017-12-05 19:34:37 UTC","3.20","3","20"
+"16110","9a4b15f1-e7df-41f8-a586-97fff9db0486","2017-12-06 12:55:08 UTC","The course won’t help me reach my goals","2017-11-19 12:40:29 UTC","1.2","1","2"
+"16419","94a0c34f-44c4-4729-8b3e-1eeb19caf8ab","2017-12-06 15:52:09 UTC","The course wasn’t what I expected","2017-12-06 15:51:28 UTC","1.5","1","5"
+"16525","57333e6b-5164-4214-b85e-3877675aad70","2017-12-06 17:25:32 UTC","Other","2017-12-06 17:21:07 UTC","3.19","3","19"
+"16967","de6f99e0-4f64-4325-88f5-abb9196be8b3","2017-12-07 00:14:06 UTC","The course won’t help me reach my goals","2017-12-07 00:13:18 UTC","3.18","3","18"
+"16986","144b1a9b-1d26-402d-ba5e-ebec424524e7","2017-12-07 00:35:50 UTC","The course wasn’t what I expected","2017-11-29 18:30:41 UTC","1.7","1","7"
+"17076","a91ba3f3-5a83-4a6b-8d31-bb4f41b7f0a9","2017-12-07 04:13:29 UTC","I don’t have enough time","2017-12-07 04:11:33 UTC","3.18","3","18"
+"17136","4f530b79-4fe2-4270-89bb-90c3bde892ac","2017-12-07 06:16:45 UTC","I don’t have enough time","2017-11-20 06:55:59 UTC","1.3","1","3"
+"17536","0636f5ca-0553-4e18-ad69-97d04bc1cb1b","2017-12-07 12:02:25 UTC","The course was too easy",NA,NA,NA,NA
+"18652","2260bdda-ff43-4b7c-8761-08bacb7b501f","2017-12-08 21:56:26 UTC","Other",NA,NA,NA,NA
+"18704","63fb5e80-b20f-4c47-913b-39673c7b6c67","2017-12-09 00:06:14 UTC","Other",NA,NA,NA,NA
+"19069","591949f6-3c78-48e0-aaa8-f7ca6915394a","2017-12-09 17:31:24 UTC","Other",NA,NA,NA,NA
+"20096","311cf44a-fb2c-4709-8800-c96c2a467ab4","2017-12-11 05:15:08 UTC","The course was too hard","2017-11-24 11:41:41 UTC","1.15","1","15"
+"20213","69236df4-cd4f-42e4-a864-e0d37b25e3a9","2017-12-11 09:06:22 UTC","The course won’t help me reach my goals","2017-11-13 14:15:18 UTC","1.5","1","5"
+"20277","e6d5edc0-3117-4c29-b152-2c6672ea9ec9","2017-12-11 10:21:22 UTC","Other","2017-12-01 13:37:04 UTC","1.1","1","1"
+"21822","f6d4ca80-dc5e-4758-8506-fa34e2d49c87","2017-12-12 17:32:11 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"23030","3525a122-d068-446d-99c5-8f8f7468c0f2","2017-12-14 12:23:30 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"23045","d237204a-736d-44b9-9fec-cd52dcfb26c8","2017-12-14 12:50:09 UTC","I don’t have enough time","2017-12-14 12:18:38 UTC","1.2","1","2"
+"23076","1ab9abf9-58bb-431c-b00a-a4cc4cf9a186","2017-12-14 13:23:24 UTC","Other","2017-12-14 13:19:52 UTC","3.20","3","20"
+"23299","46546546-9429-42dc-84ef-d4a24f193c50","2017-12-14 20:23:01 UTC","Other","2017-12-14 20:19:35 UTC","3.9","3","9"
+"23390","76097bfc-3d80-476e-8816-885971c35f83","2017-12-14 23:49:18 UTC","I don’t have enough time","2018-01-09 21:47:26 UTC","1.5","1","5"
+"24198","1c092421-43b6-4040-86b4-9960fcb3d19e","2017-12-16 10:45:51 UTC","Other",NA,NA,NA,NA
+"24273","532b41f3-e1ca-4f37-b420-41402eb166bb","2017-12-16 13:17:43 UTC","I don’t have enough time",NA,NA,NA,NA
+"24491","a19c0d8c-c5cf-4f4b-8dfb-4e3045ac17b1","2017-12-16 21:40:10 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"24965","a9913451-0fa6-4d0b-9534-6a0c7e19d17a","2017-12-17 18:57:48 UTC","The course wasn’t what I expected","2017-12-17 18:55:49 UTC","2.20","2","20"
+"25430","39c549be-ee8a-4d50-aad5-0e803d23a197","2017-12-18 07:07:36 UTC","The course won’t help me reach my goals","2017-11-20 14:02:52 UTC","1.19","1","19"
+"25474","80cf5cfc-c015-4067-9415-c7a3a2db240b","2017-12-18 07:55:37 UTC","Other","2017-12-17 18:20:31 UTC","3.18","3","18"
+"25629","5dcf468f-a27f-4e28-8466-4a46e477fa71","2017-12-18 09:54:52 UTC","I don’t have enough time","2017-12-01 15:42:45 UTC","2.8","2","8"
+"25650","9df2d5a4-f2ad-41c6-a334-3c33cd1d1a3d","2017-12-18 10:19:46 UTC","I don’t have enough time",NA,NA,NA,NA
+"25680","9eff67d4-e0d9-4685-9b00-96703c7f4075","2017-12-18 10:51:35 UTC","The course was too hard",NA,NA,NA,NA
+"25771","6e106913-6be7-4c43-a9c1-0ce499a99008","2017-12-18 12:04:28 UTC","Other",NA,NA,NA,NA
+"26416","51e52a52-68d5-4825-b40a-967ebb41b69c","2017-12-18 19:17:06 UTC","The course was too hard",NA,NA,NA,NA
+"26601","662f9217-59d5-4453-8b19-079a3806b995","2017-12-18 22:22:45 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"26622","9a1a28ea-bb89-42aa-acec-47f7e2eb84d8","2017-12-18 22:39:24 UTC","Other",NA,NA,NA,NA
+"26679","1a818bcb-d057-4cfa-93e2-4055c36dd947","2017-12-19 00:13:01 UTC","Other",NA,NA,NA,NA
+"26809","7abde1dc-748a-4cb8-91f0-2492ce04324c","2017-12-19 05:15:23 UTC","The course was too hard",NA,NA,NA,NA
+"27101","0d2ec79e-dbed-4f90-a853-72b81eab5dc2","2017-12-19 10:46:02 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"27210","cb1bdfee-8d60-4afb-bdc6-72bf40f368ce","2017-12-19 13:07:06 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"27243","b1128a68-e1f6-470b-8736-679bd5f0621f","2017-12-19 13:29:20 UTC","I don’t have enough time",NA,NA,NA,NA
+"27692","10535f58-fe40-45e3-9869-44c2c0d52d48","2017-12-19 22:50:35 UTC","The course was too hard",NA,NA,NA,NA
+"28183","63b103d6-4a5d-4ee8-9d25-44d4803cb687","2018-01-11 01:02:40 UTC","Other","2018-01-10 02:22:56 UTC","3.20","3","20"
+"29920","ccffd88d-e492-4152-b8bc-c38c46d1fafc","2018-01-27 11:04:26 UTC","The course required more time than I realised",NA,NA,NA,NA
+"34003","8853543d-b930-43e0-a3cb-99de6b9ea4f3","2018-01-30 20:04:59 UTC","I prefer not to say",NA,NA,NA,NA
+"38604","b170480c-7ed6-434f-8827-73cfa130ece1","2018-02-05 03:01:39 UTC","The course required more time than I realised",NA,NA,NA,NA
+"39016","92b8485e-b2a6-4345-8721-3e93142b469d","2018-02-05 10:30:03 UTC","Other",NA,NA,NA,NA
+"39241","f4cae359-0966-4a6d-830f-4218861f2fd9","2018-02-05 13:27:14 UTC","Other",NA,NA,NA,NA
+"39604","3429e915-a619-4853-9d7b-4ba7a0e218a0","2018-02-05 17:32:53 UTC","I prefer not to say",NA,NA,NA,NA
+"39657","a04b5f29-c283-419f-b262-5797c9220aa9","2018-02-05 18:12:27 UTC","Other","2018-02-05 18:12:15 UTC","1.2","1","2"
+"39986","7a397770-4c11-4606-bb9c-49651a961577","2018-02-05 23:02:17 UTC","Other",NA,NA,NA,NA
+"40050","1db6b8bc-6216-4bc6-8d94-e3b54681e94a","2018-02-06 00:48:52 UTC","Other",NA,NA,NA,NA
+"40617","e4a60824-c65e-4442-811e-4678f368772d","2018-02-06 14:02:14 UTC","The course was too hard",NA,NA,NA,NA
+"40786","f0a37bd6-3231-44b0-97e0-4bd6ff71de1b","2018-02-06 16:33:52 UTC","Other",NA,NA,NA,NA
+"41102","3ae76b85-153a-4fe6-8a24-46d795e2608c","2018-02-06 20:00:27 UTC","The course wasn’t what I expected","2018-02-06 19:04:22 UTC","1.1","1","1"
+"41347","a1d58afb-bfbd-42d4-bc9b-dde8b6d41f67","2018-02-06 22:15:58 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"41471","7e972bbd-69c7-4395-84f8-e2fb19454d1a","2018-02-07 01:52:15 UTC","I prefer not to say",NA,NA,NA,NA
+"41893","f6ec6af3-d021-4422-a7c7-82012145f590","2018-02-07 12:49:19 UTC","The course was too easy","2018-02-06 11:17:02 UTC","1.2","1","2"
+"42361","c34d4236-e595-4a44-8e49-245ea4e64e51","2018-02-07 18:28:24 UTC","Other",NA,NA,NA,NA
+"43060","05d85e9d-3d23-448b-abd1-a945f9a1645e","2018-02-08 13:44:32 UTC","The course required more time than I realised",NA,NA,NA,NA
+"43628","36910dcc-a5dd-4a93-88cb-178ed63f89bc","2018-02-09 08:06:00 UTC","The course required more time than I realised",NA,NA,NA,NA
+"43958","adccb0bb-70c2-4a04-93c4-58e7a945bf28","2018-02-09 12:42:34 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"44237","5086b814-3121-43e7-999b-926113ae98d2","2018-02-09 18:31:44 UTC","I prefer not to say","2018-02-09 18:24:29 UTC","1.3","1","3"
+"45136","ea9b9a0b-6af5-469d-850f-c25fcbf59727","2018-02-11 04:46:32 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"45582","74082dd9-2f29-4d39-a050-f76849f92747","2018-02-11 17:42:39 UTC","The course was too easy",NA,NA,NA,NA
+"46764","7b30f56d-593b-43e6-bac2-9397dedfecce","2018-02-12 17:32:30 UTC","Other","2018-02-13 15:09:46 UTC","3.20","3","20"
+"46828","c32fad63-a3d7-4944-80b6-2efd032028a4","2018-02-12 19:09:26 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"46902","08f3cb8f-01d4-41dc-9aa4-376a051cbc37","2018-02-12 20:10:36 UTC","Other","2018-02-07 21:13:01 UTC","1.8","1","8"
+"47778","3603bbf1-674a-4a4f-a3ba-3ecb9a8826ff","2018-02-13 18:24:30 UTC","Other",NA,NA,NA,NA
+"48327","fa001738-ecab-459b-9c05-e41eb186edec","2018-02-14 01:14:30 UTC","The course was too hard",NA,NA,NA,NA
+"48595","f9da37fe-f254-4ab7-a2b1-373c860b2e4e","2018-02-14 08:52:07 UTC","The course was too hard","2018-02-22 13:04:30 UTC","1.19","1","19"
+"48826","6ccdcbce-51c2-449f-a501-320ae2ccde09","2018-02-14 11:14:02 UTC","The course won’t help me reach my goals","2018-02-14 11:12:40 UTC","1.19","1","19"
+"48919","d7782f9f-61d1-48f5-af83-a09d884d75b3","2018-02-14 12:35:58 UTC","I prefer not to say",NA,NA,NA,NA
+"48944","ce811939-1e08-47ab-a485-57a389e07f33","2018-02-14 13:00:22 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"49141","f91a68c7-aa83-4835-a712-a2b314b4f113","2018-02-14 16:09:31 UTC","Other",NA,NA,NA,NA
+"49503","788b4a9d-de2d-4a32-8139-12e0eea06672","2018-02-15 00:20:19 UTC","The course was too hard","2018-03-02 12:05:40 UTC","3.20","3","20"
+"49965","10af87d7-0ad8-4dd1-8703-132e9a083b78","2018-02-15 14:00:46 UTC","Other",NA,NA,NA,NA
+"50003","46003b87-bb55-491e-8d23-5931aabbebb0","2018-02-15 14:56:43 UTC","The course was too easy","2018-02-15 14:55:42 UTC","1.5","1","5"
+"50367","68fce601-5e93-4145-93a9-5653ec635a1e","2018-02-15 20:59:45 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"50944","b5416211-31f4-42f0-ba92-46bcf9a964b0","2018-02-16 15:08:03 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"51772","6414711b-ba6b-4047-b853-cbf993fcabe3","2018-02-17 16:08:38 UTC","Other","2018-02-17 16:07:30 UTC","3.20","3","20"
+"53240","afabdbcc-e47b-4f36-9a2f-c2ca9da95507","2018-02-19 09:09:24 UTC","The course was too easy",NA,NA,NA,NA
+"53362","a5e37152-ded1-464c-8ffb-923a6cf635f2","2018-02-19 10:52:31 UTC","Other","2018-02-19 10:51:38 UTC","3.20","3","20"
+"54781","bb41f50b-1907-4e43-bf48-1bb58274a2b5","2018-02-20 10:18:58 UTC","The course required more time than I realised","2018-02-16 14:30:02 UTC","2.23","2","23"
+"54955","54b56210-4268-488d-b69c-49f86f6b003f","2018-02-20 13:05:40 UTC","I don’t have enough time",NA,NA,NA,NA
+"55072","1c092421-43b6-4040-86b4-9960fcb3d19e","2018-02-20 15:18:24 UTC","I prefer not to say","2018-02-12 11:21:26 UTC","1.5","1","5"
+"55515","798f378b-858d-44ac-a254-0846625dc7e9","2018-02-20 21:10:26 UTC","The course was too easy","2018-02-20 21:09:54 UTC","3.20","3","20"
+"55544","757e2448-38b7-4335-a0e7-08bb53f2344d","2018-02-20 21:29:32 UTC","The course required more time than I realised","2018-02-20 21:28:07 UTC","2.18","2","18"
+"56195","3270a349-5005-4bc7-aa0a-1b3d1f3bfce8","2018-02-21 11:05:29 UTC","I prefer not to say",NA,NA,NA,NA
+"56460","3a80e6d0-7634-4213-abd7-00b66c532a69","2018-02-21 15:37:40 UTC","The course required more time than I realised",NA,NA,NA,NA
+"56528","79ce8bf7-8d5e-4b2a-bc09-542be53d0267","2018-02-21 17:04:07 UTC","The course won’t help me reach my goals","2018-02-21 17:01:18 UTC","1.5","1","5"
+"58252","f9da37fe-f254-4ab7-a2b1-373c860b2e4e","2018-02-23 12:44:04 UTC","Other","2018-02-22 13:04:30 UTC","1.19","1","19"
+"59061","29c93030-c6ea-406a-9d31-d2c4ab20ec76","2018-02-24 12:59:10 UTC","The course won’t help me reach my goals","2018-02-19 13:03:47 UTC","1.2","1","2"
+"59108","54faa8b2-c655-4c63-ab6b-86f528a2be37","2018-02-24 14:13:02 UTC","Other","2018-02-22 14:51:20 UTC","3.20","3","20"
+"59310","3525a122-d068-446d-99c5-8f8f7468c0f2","2018-02-24 20:03:33 UTC","The course was too hard",NA,NA,NA,NA
+"59387","2818f3f1-648d-4ae1-89fe-af60da8ef2ea","2018-02-24 22:32:09 UTC","The course was too easy","2018-02-06 22:18:18 UTC","1.2","1","2"
+"60362","3ee79efd-e1f9-49f1-af99-36d38a4f1931","2018-02-26 00:39:15 UTC","Other",NA,NA,NA,NA
+"63550","36025d73-6f7f-4a3f-8ebf-6794b82cb0a6","2018-02-28 11:36:36 UTC","Other","2018-02-27 16:26:20 UTC","3.19","3","19"
+"63966","151fefbf-fafb-42fc-a5a6-1f9f08840031","2018-02-28 17:09:56 UTC","I don’t have enough time","2018-02-12 05:18:42 UTC","1.8","1","8"
+"64546","144b1a9b-1d26-402d-ba5e-ebec424524e7","2018-03-01 03:39:40 UTC","The course required more time than I realised",NA,NA,NA,NA
+"64847","f603eba7-48d7-4e7f-ab7d-4b4527b0c124","2018-03-01 11:39:16 UTC","Other",NA,NA,NA,NA
+"65208","251e6e41-be2d-43d3-9e30-28434559284a","2018-03-01 16:58:51 UTC","Other","2018-02-27 18:01:43 UTC","3.20","3","20"
+"65497","4b0086c6-ad26-4eaa-8d5d-2ccc42c15959","2018-03-01 23:59:54 UTC","I don’t have enough time","2018-03-01 23:53:42 UTC","1.4","1","4"
+"66213","6d3f6c48-7844-4168-a73a-1e9c1a8493cf","2018-03-02 18:04:08 UTC","I prefer not to say",NA,NA,NA,NA
+"66953","cb41991c-813f-457d-9b1c-a69c42dc56bc","2018-03-03 13:49:15 UTC","Other","2018-03-02 12:59:24 UTC","3.20","3","20"
+"67956","91c1c891-7640-423f-a41d-50c8de1260f6","2018-03-04 16:48:41 UTC","Other",NA,NA,NA,NA
+"69182","ed1c0579-5888-4a6e-8cc7-f9d745c0052a","2018-03-05 15:01:00 UTC","Other","2018-03-02 23:20:41 UTC","1.13","1","13"
+"69316","331fb17d-9031-4fa0-951d-7ef515d54e9e","2018-03-05 15:57:42 UTC","Other",NA,NA,NA,NA
+"69437","9b877d8f-5ffb-48df-86b2-7e75df810bd1","2018-03-05 16:38:31 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"69997","930d1909-cb41-436e-915b-09784273c18e","2018-03-05 21:07:01 UTC","The course wasn’t what I expected","2018-02-19 16:09:45 UTC","1.13","1","13"
+"70010","21e23ee0-3339-4bce-8364-9f9fe34c10dc","2018-03-05 21:15:07 UTC","I don’t have enough time",NA,NA,NA,NA
+"70016","e1745b1f-7eb8-4305-a5ca-64f008d0d2f1","2018-03-05 21:23:12 UTC","I don’t have enough time","2018-03-05 21:20:52 UTC","3.11","3","11"
+"70190","ebfe406e-c055-4a7d-886d-96b3e15905ce","2018-03-05 23:21:21 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"70510","de5990b9-ada9-43ac-a461-102c96c23df7","2018-03-06 06:03:43 UTC","The course required more time than I realised","2018-03-05 07:30:11 UTC","2.10","2","10"
+"71992","5ccba61f-bcad-4dd0-9514-8d3404c35ea0","2018-03-07 07:55:11 UTC","The course was too easy","2018-03-06 18:56:09 UTC","2.6","2","6"
+"72009","31d97415-4ed9-4705-9385-a362dbb649ec","2018-03-07 08:27:15 UTC","Other","2018-03-06 11:04:46 UTC","3.20","3","20"
+"72369","76153b5e-80df-4b4f-b4bb-9480f346f0df","2018-03-07 14:49:39 UTC","The course was too hard","2018-03-07 14:48:30 UTC","3.20","3","20"
+"73694","c139e6a1-f66f-4870-a720-db8363562560","2018-03-08 16:51:21 UTC","The course won’t help me reach my goals","2018-03-08 16:50:57 UTC","3.20","3","20"
+"73856","51c350ad-3ee8-47e8-a148-aef919ff83a6","2018-03-08 20:27:54 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"74747","62d40f3f-79cf-4d26-8374-62c4929d01ce","2018-03-09 20:19:49 UTC","The course won’t help me reach my goals","2018-02-16 15:25:09 UTC","1.14","1","14"
+"75185","6181fc90-dbd6-4ed2-a7c4-3caa55a2b604","2018-03-10 15:16:22 UTC","I don’t have enough time","2018-03-04 19:53:18 UTC","2.4","2","4"
+"75804","d62d200b-76ac-4fc3-807d-27e74a014e4d","2018-03-11 11:01:09 UTC","Other","2018-03-11 10:59:51 UTC","3.20","3","20"
+"75980","06534504-8d49-4aa8-9570-ad6b9b07a846","2018-03-11 15:03:55 UTC","Other","2018-03-03 16:49:40 UTC","3.20","3","20"
+"76419","01b12f92-6da6-4d19-9caa-7c50d437a391","2018-03-12 01:18:24 UTC","The course won’t help me reach my goals","2018-03-09 01:08:06 UTC","3.10","3","10"
+"76690","d1f53e00-4945-4ce1-b826-f1463b4919e8","2018-03-12 07:55:07 UTC","I don’t have enough time","2018-02-28 23:05:51 UTC","2.12","2","12"
+"76838","85e63a69-35cb-4c0e-8f4e-c64b8fe952ae","2018-03-12 10:20:50 UTC","I don’t have enough time",NA,NA,NA,NA
+"77098","035c8a05-b3f7-49b9-9408-a74bd363a4af","2018-03-12 12:36:38 UTC","I prefer not to say","2018-03-12 12:35:14 UTC","2.8","2","8"
+"77198","c5e3ed0a-9925-48fa-9f1e-ff18c41e9f0d","2018-03-12 14:13:28 UTC","Other",NA,NA,NA,NA
+"77717","cb606f96-99bc-4688-844b-64205ab08f13","2018-03-12 22:38:27 UTC","I prefer not to say",NA,NA,NA,NA
+"77955","174275c5-cdfd-4acb-867e-ca7a60becba2","2018-03-13 07:40:17 UTC","Other","2018-02-06 23:17:44 UTC","1.14","1","14"
+"78063","1f22403d-24d0-4bb2-bb32-2c8b3ac30bbb","2018-03-13 10:50:20 UTC","Other",NA,NA,NA,NA
+"78200","532b41f3-e1ca-4f37-b420-41402eb166bb","2018-03-13 13:12:30 UTC","The course was too hard",NA,NA,NA,NA
+"78497","267be897-db6f-4748-b183-326f54ad6677","2018-03-13 17:39:55 UTC","I don’t have enough time","2018-02-17 19:40:03 UTC","1.14","1","14"
+"78590","3b88b399-4bd1-4a05-ba0e-b9d25feb67c4","2018-03-13 19:01:21 UTC","I prefer not to say",NA,NA,NA,NA
+"78642","ca78042e-ba31-472f-8d58-2fca5a5cd995","2018-03-13 20:04:20 UTC","I don’t have enough time","2018-03-10 06:55:36 UTC","2.17","2","17"
+"78960","d07516c0-6d4f-443b-a74a-638b851e6f27","2018-03-14 05:12:47 UTC","I prefer not to say",NA,NA,NA,NA
+"79187","8cc21755-7641-4c06-892b-bf00846ecccf","2018-03-14 09:54:45 UTC","Other","2018-03-11 11:50:31 UTC","1.13","1","13"
+"79257","663452de-00d8-4c0d-b805-267970a92832","2018-03-14 11:11:27 UTC","The course wasn’t what I expected","2018-03-09 22:03:16 UTC","1.19","1","19"
+"79501","4e18647d-ca19-414c-9fb6-ab7b04b57349","2018-03-14 15:01:43 UTC","The course required more time than I realised","2018-03-07 17:21:34 UTC","1.9","1","9"
+"80038","f411190f-5ee8-4426-a75d-39aad0dbc9dd","2018-03-15 10:14:34 UTC","The course required more time than I realised",NA,NA,NA,NA
+"80111","c77994b4-d0db-438a-9092-86ded7487e93","2018-03-15 11:34:20 UTC","Other",NA,NA,NA,NA
+"80184","1ffbf603-f70b-4d1d-8cb9-209be58b7180","2018-03-15 12:57:50 UTC","I don’t have enough time","2018-03-05 15:41:51 UTC","1.2","1","2"
+"80699","9a7fe686-b65c-42d0-8f5c-c33277f4ea03","2018-03-15 21:33:40 UTC","The course was too easy","2018-02-07 16:46:59 UTC","1.4","1","4"
+"80983","a5667831-2a63-4406-9bd4-b4ee5bb8cfb5","2018-03-16 06:59:42 UTC","I don’t have enough time","2018-03-11 21:26:37 UTC","1.19","1","19"
+"81188","1de83b88-5625-42ba-8251-6da5c933ba1f","2018-03-16 11:48:30 UTC","I don’t have enough time",NA,NA,NA,NA
+"81268","57f191e3-8285-4155-abb7-faa92705c6c3","2018-03-16 13:53:12 UTC","The course won’t help me reach my goals","2018-03-16 13:52:17 UTC","1.7","1","7"
+"81729","f017d96e-e2db-4c0d-a586-4d2a3a2174bd","2018-03-17 09:16:13 UTC","Other","2018-02-24 13:45:02 UTC","3.20","3","20"
+"81973","fee68e42-5788-4c7b-93ae-cacafa3c53b6","2018-03-17 15:41:53 UTC","The course was too easy","2018-03-03 17:46:43 UTC","1.12","1","12"
+"82062","9b193413-fd25-442b-a95d-974d939ca7cb","2018-03-17 18:04:05 UTC","Other","2018-03-12 11:46:04 UTC","3.20","3","20"
+"82149","86d97a50-8ce6-43ae-8c4c-dee110de2c0b","2018-03-17 20:35:45 UTC","The course was too hard",NA,NA,NA,NA
+"82172","54c0aefb-90d6-4c7d-8e6a-0ea58dd18235","2018-03-17 20:50:03 UTC","Other",NA,NA,NA,NA
+"82511","44714f8e-f493-403e-b85b-b940110a2ec7","2018-03-18 11:59:00 UTC","The course was too hard",NA,NA,NA,NA
+"82595","e2144e05-c9b6-44fb-858c-c21b4096a105","2018-03-18 13:50:47 UTC","The course was too hard",NA,NA,NA,NA
+"82708","38329f6f-807c-4020-bc75-11ad75896266","2018-03-18 16:37:03 UTC","The course wasn’t what I expected","2018-03-10 15:59:34 UTC","1.19","1","19"
+"83767","b3084383-c5b7-46ae-8022-d8fc5a501200","2018-03-19 14:22:27 UTC","I don’t have enough time",NA,NA,NA,NA
+"84053","ae52d578-63d3-4aa5-827d-0d64b200dd21","2018-03-19 18:41:21 UTC","Other",NA,NA,NA,NA
+"84176","a06f9e02-a040-41e8-950a-f4176321a105","2018-03-19 20:53:39 UTC","Other","2018-02-10 23:10:48 UTC","1.2","1","2"
+"84734","9939a38c-e823-4ff5-b66a-5e2d27740992","2018-03-20 11:20:42 UTC","The course was too hard","2018-03-03 14:54:02 UTC","3.20","3","20"
+"84973","f4c1b1bd-38ac-46ab-8366-0a4192e55cd6","2018-03-20 14:01:35 UTC","The course was too hard","2018-02-12 12:01:40 UTC","1.1","1","1"
+"86431","cf9f7326-ff26-4da1-b526-c47f9e7ef6a6","2018-03-21 14:57:26 UTC","Other","2018-03-19 16:54:25 UTC","3.20","3","20"
+"86661","816847c6-be93-4d31-b5ec-5ad661890111","2018-03-21 19:29:09 UTC","Other",NA,NA,NA,NA
+"86958","485a3f1d-f71e-43be-ac13-5fa0e8e98c03","2018-03-22 05:22:08 UTC","The course won’t help me reach my goals","2018-03-22 05:17:12 UTC","3.20","3","20"
+"87404","5f88eaa4-70de-46e4-ab0c-d30f7b7d468f","2018-03-22 14:13:54 UTC","Other",NA,NA,NA,NA
+"87644","4c5a73c0-c1a4-4fa8-ac87-5f9b71d2e6d0","2018-03-22 17:43:41 UTC","Other",NA,NA,NA,NA
+"87871","b5d35f13-82b2-4376-926f-ffa796c4f163","2018-03-22 23:06:37 UTC","The course was too hard","2018-03-12 18:50:53 UTC","1.7","1","7"
+"88909","74191264-4952-4ae7-848a-dcb5bac9309f","2018-03-24 12:10:58 UTC","The course required more time than I realised",NA,NA,NA,NA
+"89030","2fe3f18b-a63c-4149-b7f7-3dd5087cd500","2018-03-24 15:56:35 UTC","I prefer not to say","2018-02-26 14:52:01 UTC","1.19","1","19"
+"89748","ecfeec7d-b5a6-4218-8980-42db547d466b","2018-03-25 17:49:07 UTC","I prefer not to say","2018-03-20 22:09:00 UTC","1.3","1","3"
+"90137","d2c97a41-5d01-4288-b9c5-a7f46dbe5e4b","2018-03-26 05:11:27 UTC","The course was too easy","2018-03-04 17:35:40 UTC","3.20","3","20"
+"90970","21551a96-2c62-4649-9b10-afe7f61d1184","2018-03-26 14:51:40 UTC","I don’t have enough time",NA,NA,NA,NA
+"91181","406bf119-c470-408c-953f-0990f8b4c946","2018-03-26 17:21:28 UTC","The course was too hard","2018-03-26 10:25:31 UTC","1.1","1","1"
+"91329","fa11cda3-d2cb-44f1-b3ed-e6f52c00bac7","2018-03-26 19:25:34 UTC","The course won’t help me reach my goals","2018-03-13 13:43:36 UTC","2.20","2","20"
+"91483","351bf942-eb96-4bb9-9bc0-58b65f3b0723","2018-03-26 21:26:07 UTC","The course was too hard","2018-03-09 20:59:12 UTC","3.20","3","20"
+"91562","f605eb94-981c-4e4b-bafa-17ca61606acb","2018-03-26 23:09:05 UTC","Other","2018-02-28 19:46:57 UTC","1.16","1","16"
+"91663","2f5ec886-20c7-498c-9460-dd94abceb155","2018-03-27 01:40:48 UTC","Other",NA,NA,NA,NA
+"92857","d095f9ec-c068-44ad-8f5d-7df8f9b76f25","2018-03-27 23:47:25 UTC","The course required more time than I realised",NA,NA,NA,NA
+"93043","0fde7775-2bfd-47c9-b4f6-5ebcb9e8af97","2018-03-28 08:12:46 UTC","The course required more time than I realised","2018-02-06 23:58:23 UTC","1.19","1","19"
+"93482","e27a4416-2cbb-4170-93a1-0ca166acc2ca","2018-03-28 17:04:46 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"93773","7b27a9ef-0acc-443a-85ea-be62f9e9dfdb","2018-03-29 08:22:58 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"94258","a49625b7-67b6-46d1-83ae-e30f977bb2a9","2018-03-29 17:04:44 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"94581","b3913cde-b415-4ade-9d93-755d373eb80e","2018-03-30 03:41:03 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"94585","b3913cde-b415-4ade-9d93-755d373eb80e","2018-03-30 03:52:43 UTC","The course was too easy",NA,NA,NA,NA
+"94652","6106e875-c103-4c65-95fa-22209c6df58f","2018-03-30 07:49:56 UTC","Other","2018-03-22 20:38:48 UTC","3.20","3","20"
+"94911","5c3502f2-2c55-43b2-8991-fb9bc22b2e7d","2018-03-30 15:21:14 UTC","The course won’t help me reach my goals","2018-03-24 14:24:21 UTC","1.7","1","7"
+"95043","b2faf1c7-a7a4-442c-a3db-3113f0431754","2018-03-30 19:22:24 UTC","Other","2018-03-19 23:49:53 UTC","3.20","3","20"
+"95243","c40bfaac-f931-431d-b9d1-e74c88753ef9","2018-03-31 06:22:39 UTC","I don’t have enough time",NA,NA,NA,NA
+"95587","a108b134-5dcc-4ac8-af09-0ccc78739457","2018-03-31 16:33:50 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"95767","d237204a-736d-44b9-9fec-cd52dcfb26c8","2018-03-31 21:46:34 UTC","The course required more time than I realised",NA,NA,NA,NA
+"98655","7d1a4e7a-87f9-4a23-ac2f-ff4f70c60224","2018-04-03 12:10:09 UTC","The course won’t help me reach my goals","2018-02-06 18:27:34 UTC","2.22","2","22"
+"98850","eb44a377-f02e-4a63-abb4-94023df7af5c","2018-04-03 13:56:39 UTC","I prefer not to say","2018-03-25 14:47:03 UTC","2.18","2","18"
+"99303","23f943ca-f9ef-4d03-83e9-568728eb5944","2018-04-03 19:26:04 UTC","The course required more time than I realised","2018-02-27 13:50:54 UTC","1.13","1","13"
+"99422","163ad4f6-878c-4062-a253-8e7d1c38a8cb","2018-04-03 21:28:53 UTC","The course wasn’t what I expected","2018-02-06 22:12:52 UTC","1.13","1","13"
+"99966","5e80b0cf-e7cf-43e1-b461-bdfbebbb5b7a","2018-04-04 11:52:08 UTC","The course was too easy","2018-03-10 20:27:16 UTC","2.23","2","23"
+"100102","ce251868-0c01-4351-a76e-0bf8700a9890","2018-04-04 14:38:08 UTC","The course won’t help me reach my goals","2018-03-23 14:04:20 UTC","2.4","2","4"
+"100520","93204515-f231-4f4e-a732-4f1563fd0912","2018-04-04 22:31:02 UTC","The course required more time than I realised","2018-02-06 19:55:22 UTC","1.1","1","1"
+"101205","0bb16dd8-ca69-495e-821d-ee1bc85f8e71","2018-04-05 16:29:47 UTC","Other",NA,NA,NA,NA
+"101685","a6259b41-5700-46fd-ac10-02ae486adcc5","2018-04-06 10:55:45 UTC","Other","2018-02-28 15:30:36 UTC","3.20","3","20"
+"101691","d237204a-736d-44b9-9fec-cd52dcfb26c8","2018-04-06 10:57:37 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"101810","d237204a-736d-44b9-9fec-cd52dcfb26c8","2018-04-06 14:03:30 UTC","The course was too easy",NA,NA,NA,NA
+"101852","95d24cc7-356c-40fc-98d5-ca8bafe6fe1f","2018-04-06 14:55:13 UTC","The course was too hard","2018-03-04 11:16:45 UTC","1.1","1","1"
+"102205","b4f95d38-3257-4694-8ce3-86b401f1a181","2018-04-07 06:50:18 UTC","The course was too hard",NA,NA,NA,NA
+"102569","11715730-6ebd-4c6e-a43c-8f7a937db5ef","2018-04-07 16:46:03 UTC","Other","2018-03-19 18:26:28 UTC","3.20","3","20"
+"103878","11ed55d7-22e1-44e3-acbb-6e8172bd11ae","2018-04-09 07:52:22 UTC","The course was too hard","2018-03-08 06:10:15 UTC","1.2","1","2"
+"104120","23708d1d-0556-4f7a-bb09-50ca9d0f7045","2018-04-09 11:56:10 UTC","Other",NA,NA,NA,NA
+"104190","dea16f7b-9a0b-4483-ad94-105ee9d0d942","2018-04-09 12:52:22 UTC","I don’t have enough time","2018-02-24 16:14:22 UTC","2.5","2","5"
+"104682","75f9b54a-e80a-4b0c-a9d0-f53c9cd95d11","2018-04-09 21:25:43 UTC","I don’t have enough time","2018-02-28 22:47:16 UTC","1.2","1","2"
+"104918","4174fccb-1888-4a6f-be70-826f3bc7426e","2018-04-10 08:49:03 UTC","The course required more time than I realised","2018-02-20 10:11:35 UTC","1.13","1","13"
+"105066","5f57293d-5393-43ce-ab42-c0339aa6d99e","2018-04-10 11:56:10 UTC","I prefer not to say","2018-04-10 11:46:37 UTC","3.18","3","18"
+"106338","5ce011aa-69f3-4c18-8bf1-bc1ed6931b1a","2018-04-12 20:24:56 UTC","I don’t have enough time",NA,NA,NA,NA
+"106642","ff2189d6-ae99-4c05-af10-73505cc6ff30","2018-04-13 14:50:26 UTC","I don’t have enough time","2018-03-05 13:55:18 UTC","1.4","1","4"
+"106684","d6f4f699-93c2-4fe4-bbab-d09b9ca7fa3c","2018-04-13 15:58:37 UTC","I don’t have enough time",NA,NA,NA,NA
+"107288","990c8ad1-6f88-4e8d-b2c3-230e3fecdc10","2018-04-15 09:39:55 UTC","I don’t have enough time","2018-03-09 15:56:13 UTC","2.4","2","4"
+"107399","6a3d66a5-a39b-45d3-bff0-f1a1637c9ff7","2018-04-15 13:35:49 UTC","I prefer not to say",NA,NA,NA,NA
+"107555","c395c645-fc26-41fe-8628-b12c2cae59d0","2018-04-15 20:21:50 UTC","I prefer not to say",NA,NA,NA,NA
+"107709","e1dfd283-bfdf-4c86-8418-526d1071b101","2018-04-16 04:40:14 UTC","I don’t have enough time","2018-03-12 15:21:25 UTC","1.3","1","3"
+"107818","6ae8589e-9e36-4662-9efe-e2635465b6cc","2018-04-16 08:21:01 UTC","Other","2018-02-19 11:05:12 UTC","3.20","3","20"
+"110051","b8b973ce-635e-4c08-ad78-9aa98dc80fe3","2018-04-19 18:43:15 UTC","I don’t have enough time","2018-03-05 08:57:05 UTC","3.20","3","20"
+"110338","9f172f7a-74fa-4e6a-991a-cad1aedbce41","2018-04-20 12:12:05 UTC","Other",NA,NA,NA,NA
+"120486","353eaf1b-cff8-4d9c-98d4-b9a736c17e73","2018-05-09 03:54:35 UTC","The course required more time than I realised","2018-07-15 16:53:37 UTC","3.20","3","20"
+"125315","8c4eee40-70ae-45ef-ab61-cdf2832328b1","2018-05-18 09:10:38 UTC","I don’t have enough time",NA,NA,NA,NA
+"126064","c1c34f22-2e36-4fb5-9295-3a92f5f94350","2018-05-20 12:15:19 UTC","I prefer not to say",NA,NA,NA,NA
+"126988","798f378b-858d-44ac-a254-0846625dc7e9","2018-05-21 17:54:05 UTC","Other",NA,NA,NA,NA
+"134123","f83e6689-b66d-4b9d-bff6-c0555a225f49","2018-06-03 09:03:08 UTC","Other",NA,NA,NA,NA
+"135619","92ee0df3-ade8-4af0-835d-073d869dc74d","2018-06-05 08:54:07 UTC","I prefer not to say",NA,NA,NA,NA
+"140288","0636f5ca-0553-4e18-ad69-97d04bc1cb1b","2018-06-13 04:17:01 UTC","I prefer not to say",NA,NA,NA,NA
+"140407","e73f3a58-d374-415c-943c-93d06ac46f98","2018-06-13 09:37:30 UTC","I don’t have enough time",NA,NA,NA,NA
+"140772","28904547-1869-40db-b4b0-9b7a5deb6c8c","2018-06-13 19:48:58 UTC","Other",NA,NA,NA,NA
+"141951","2ea03bab-6bac-4528-97a5-3aa1e52642e8","2018-06-16 07:48:35 UTC","The course required more time than I realised","2018-06-14 13:23:55 UTC","1.7","1","7"
+"142496","93941798-99ad-4224-95de-f0c3e671b0f9","2018-06-17 16:35:13 UTC","I prefer not to say",NA,NA,NA,NA
+"142888","ff2189d6-ae99-4c05-af10-73505cc6ff30","2018-06-18 07:58:59 UTC","I don’t have enough time",NA,NA,NA,NA
+"143007","728b414e-0840-4aad-8853-ea0783c41ad5","2018-06-18 10:19:50 UTC","Other","2018-06-18 09:58:57 UTC","1.3","1","3"
+"144076","75073913-884b-41a2-aae1-b1457ac95b90","2018-06-19 15:21:17 UTC","I don’t have enough time","2018-06-12 19:47:47 UTC","1.3","1","3"
+"144912","f62ff33a-b5bf-4e25-bc20-b60bef1b3b01","2018-06-21 08:22:56 UTC","Other",NA,NA,NA,NA
+"146256","86f205ff-90cc-4c22-9d2a-5285e2621141","2018-06-24 02:42:21 UTC","I don’t have enough time","2018-06-22 10:10:55 UTC","1.6","1","6"
+"146615","fa001738-ecab-459b-9c05-e41eb186edec","2018-06-24 18:35:53 UTC","I don’t have enough time","2018-06-17 03:46:01 UTC","1.3","1","3"
+"146701","8f3088b5-11a8-4f7a-a37b-f11b7539790f","2018-06-24 23:42:30 UTC","I don’t have enough time","2018-06-14 01:58:44 UTC","1.8","1","8"
+"146900","ac1d37b2-c2b9-4884-80b6-8bc6c6f3f5d3","2018-06-25 07:58:54 UTC","I don’t have enough time",NA,NA,NA,NA
+"146927","94acb83b-d516-49cc-b120-daf9f8401dcd","2018-06-25 08:28:37 UTC","The course wasn’t what I expected","2018-06-25 08:27:09 UTC","2.15","2","15"
+"147006","54632f0a-4f86-425d-a12b-0cd429a1ba30","2018-06-25 10:23:25 UTC","The course required more time than I realised",NA,NA,NA,NA
+"148543","c81fa23b-2b7a-4bdd-9e40-689076decb89","2018-06-27 11:38:12 UTC","The course wasn’t what I expected","2018-06-27 11:37:33 UTC","1.2","1","2"
+"148652","0c8dcb20-1d3f-4689-8bba-9fc2fb1351f2","2018-06-27 16:11:01 UTC","I don’t have enough time","2018-06-27 16:10:04 UTC","1.19","1","19"
+"149284","0a3477c7-bae2-4991-b6e9-44fde85f660e","2018-06-28 21:12:13 UTC","I don’t have enough time",NA,NA,NA,NA
+"149433","3603bbf1-674a-4a4f-a3ba-3ecb9a8826ff","2018-06-29 07:39:22 UTC","I don’t have enough time",NA,NA,NA,NA
+"150378","b8b973ce-635e-4c08-ad78-9aa98dc80fe3","2018-07-01 12:43:31 UTC","The course required more time than I realised",NA,NA,NA,NA
+"150487","9abd0d70-0c0f-459a-95d8-0132ea2e5bb6","2018-07-01 17:40:19 UTC","I prefer not to say","2018-07-01 17:08:00 UTC","3.20","3","20"
+"150738","6713d2e5-99c9-4aec-ae5b-3b81200694f4","2018-07-02 03:52:27 UTC","Other",NA,NA,NA,NA
+"151403","0b985343-44d3-4ece-820b-1d8c87294869","2018-07-02 17:27:05 UTC","The course won’t help me reach my goals","2018-07-02 16:39:06 UTC","1.5","1","5"
+"151512","feabc67d-99a7-4149-b5f3-8a7edec4e4ce","2018-07-02 18:49:02 UTC","The course wasn’t what I expected","2018-06-30 21:08:48 UTC","1.8","1","8"
+"152126","36910dcc-a5dd-4a93-88cb-178ed63f89bc","2018-07-03 14:47:28 UTC","I don’t have enough time",NA,NA,NA,NA
+"152978","470171ac-7fc9-47bc-bfca-819682ae75ca","2018-07-05 02:44:46 UTC","I prefer not to say",NA,NA,NA,NA
+"153717","5ee15ced-4f3d-4478-b0f6-c9169a4ecb35","2018-07-06 11:03:17 UTC","Other","2018-07-06 11:02:41 UTC","3.20","3","20"
+"153799","7279f38a-3f85-4ce5-8368-312419bd24ac","2018-07-06 14:24:41 UTC","I don’t have enough time",NA,NA,NA,NA
+"153803","1615fe6a-91d0-478f-95a0-cabbbb6da2a2","2018-07-06 14:28:22 UTC","I don’t have enough time",NA,NA,NA,NA
+"154080","3674d80c-4533-4af3-bd93-7c3f804b8937","2018-07-07 07:06:23 UTC","I don’t have enough time","2018-06-19 05:26:05 UTC","1.19","1","19"
+"154322","eccf7f6e-5364-47b3-ada7-aaffe578d636","2018-07-07 18:38:51 UTC","The course was too easy","2018-07-06 08:07:43 UTC","2.18","2","18"
+"155338","d4220c94-b91c-4885-9bbf-12f2240d6d1d","2018-07-09 14:24:27 UTC","I don’t have enough time","2018-07-09 14:23:22 UTC","3.14","3","14"
+"155597","d3d28596-0af0-47eb-bf2d-4ebfeee2b635","2018-07-09 19:17:43 UTC","I don’t have enough time",NA,NA,NA,NA
+"155601","9c3a49d2-2602-4167-bf82-9adee9975fa4","2018-07-09 19:28:18 UTC","The course required more time than I realised","2018-06-27 21:32:20 UTC","1.19","1","19"
+"155928","2effb835-520d-4a09-8d66-667f372f0765","2018-07-10 07:55:17 UTC","The course required more time than I realised","2018-07-10 07:50:20 UTC","1.19","1","19"
+"156625","532b41f3-e1ca-4f37-b420-41402eb166bb","2018-07-11 11:58:49 UTC","I don’t have enough time",NA,NA,NA,NA
+"156633","8e857594-f8ac-4062-a0f4-de7596e8cae4","2018-07-11 12:19:17 UTC","The course required more time than I realised",NA,NA,NA,NA
+"156955","3525a122-d068-446d-99c5-8f8f7468c0f2","2018-07-12 05:36:34 UTC","I don’t have enough time",NA,NA,NA,NA
+"157014","c53c21b0-60e1-4c75-afac-b78a21a39b48","2018-07-12 09:53:13 UTC","The course required more time than I realised",NA,NA,NA,NA
+"157527","0ff7b373-c961-460b-96f4-4f61b04c9ec7","2018-07-13 09:21:40 UTC","The course wasn’t what I expected","2018-07-13 09:20:43 UTC","1.7","1","7"
+"158055","2515ccff-a1f3-4577-b655-c0f74b1a33a4","2018-07-14 12:13:58 UTC","I prefer not to say","2018-06-13 13:13:36 UTC","1.4","1","4"
+"158090","866d70f8-f248-4180-952b-6267586e8d09","2018-07-14 13:49:16 UTC","Other","2018-06-30 16:54:30 UTC","3.17","3","17"
+"158365","800e63b5-317a-42c8-b2b9-48ff547e11f1","2018-07-15 10:51:10 UTC","I don’t have enough time",NA,NA,NA,NA
+"158998","6cfaa598-e213-4bef-8f6e-457e72fa0265","2018-07-16 10:28:14 UTC","I don’t have enough time",NA,NA,NA,NA
+"159177","79ce05a8-1dac-4e64-a8d0-f70fcd185949","2018-07-16 14:32:14 UTC","The course was too easy",NA,NA,NA,NA
+"159598","5e46935f-93a4-4464-8543-1dc84aec9799","2018-07-17 09:20:16 UTC","I don’t have enough time",NA,NA,NA,NA
+"160010","4b9a9069-e715-4299-b0e0-50f106d12060","2018-07-17 18:42:43 UTC","The course required more time than I realised","2018-07-02 15:04:17 UTC","1.6","1","6"
+"161279","4e324477-481c-4b0b-aecf-2e299d105f7e","2018-07-20 07:29:17 UTC","Other",NA,NA,NA,NA
+"162294","0636f5ca-0553-4e18-ad69-97d04bc1cb1b","2018-07-21 23:00:38 UTC","I prefer not to say",NA,NA,NA,NA
+"162547","cb606f96-99bc-4688-844b-64205ab08f13","2018-07-22 15:37:21 UTC","I don’t have enough time",NA,NA,NA,NA
+"162711","943c22d6-316c-4a34-bb5e-b212cbadb11d","2018-07-22 22:40:24 UTC","I don’t have enough time",NA,NA,NA,NA
+"163183","19e63148-2366-438f-9a39-24d74dd242e9","2018-07-23 15:57:27 UTC","I don’t have enough time","2018-06-16 16:19:25 UTC","1.1","1","1"
+"163424","2861dd6e-4682-4c86-a4e4-5b1d2fb73819","2018-07-23 19:45:35 UTC","I prefer not to say","2018-07-23 19:44:12 UTC","1.5","1","5"
+"164387","6e79114c-ffb1-4a01-937b-6e62a26a8da1","2018-07-25 04:45:01 UTC","I prefer not to say",NA,NA,NA,NA
+"165721","44cd342b-0ad5-4c02-a5f3-e0bcdbb579c2","2018-07-27 14:29:34 UTC","Other","2018-06-26 14:55:38 UTC","3.20","3","20"
+"167868","ab329e4a-4854-4fd2-af8f-13c05311de2d","2018-07-31 03:08:09 UTC","I don’t have enough time",NA,NA,NA,NA
+"168504","565ca901-25ad-4af8-afb3-bafae2eff907","2018-08-01 03:24:43 UTC","Other",NA,NA,NA,NA
+"169279","abb8d417-63db-448b-9a3e-fe0d4685c19b","2018-08-02 13:44:40 UTC","I don’t have enough time",NA,NA,NA,NA
+"169282","abb8d417-63db-448b-9a3e-fe0d4685c19b","2018-08-02 13:45:44 UTC","I don’t have enough time",NA,NA,NA,NA
+"169523","aa2b636b-dacb-4320-b7e8-ef6b6bdbb1e1","2018-08-02 23:56:39 UTC","Other",NA,NA,NA,NA
+"169576","74606679-eb45-47c6-8c89-c163b0769ad7","2018-08-03 06:03:39 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"170913","66b8373d-82d9-44a5-a9bc-07b6494bf310","2018-08-05 17:14:01 UTC","I prefer not to say",NA,NA,NA,NA
+"171884","051b751e-fb69-4b7e-9c83-82efba0ecd58","2018-08-06 23:33:34 UTC","I don’t have enough time",NA,NA,NA,NA
+"171957","28edecbc-78c9-4eec-ba5b-06f34beba241","2018-08-07 05:32:22 UTC","Other",NA,NA,NA,NA
+"172208","96b3f8b3-a17c-4693-a5de-b7b835712196","2018-08-07 12:28:23 UTC","I don’t have enough time",NA,NA,NA,NA
+"172347","657a0b97-db63-4101-9636-ca669a678998","2018-08-07 15:50:44 UTC","The course was too hard",NA,NA,NA,NA
+"173673","abf4e546-b44e-4e16-920f-e7c305062d00","2018-08-10 01:52:15 UTC","I don’t have enough time",NA,NA,NA,NA
+"174352","40043a3e-b86c-41f6-aee3-81b918e69279","2018-08-11 18:00:37 UTC","Other",NA,NA,NA,NA
+"175372","09652547-76ce-44ae-84ec-b04fc1490c19","2018-08-13 18:30:22 UTC","I prefer not to say",NA,NA,NA,NA
+"175532","0b19f3a6-eb00-47ae-8cc7-83d288b9f2bb","2018-08-13 22:43:45 UTC","I don’t have enough time",NA,NA,NA,NA
+"176673","f609bd73-ffe8-49a5-bf62-9d878834b612","2018-08-15 16:34:19 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"178095","c8095071-baef-4010-98e0-a8abd8f4a788","2018-08-18 19:32:02 UTC","I prefer not to say","2018-08-18 19:14:05 UTC","3.16","3","16"
+"179308","b81790a8-2cca-445a-bbf5-102d91c454f2","2018-08-21 08:58:21 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"181173","e10a0bc6-3e17-4217-a546-28c895d9f174","2018-08-24 12:50:36 UTC","I don’t have enough time",NA,NA,NA,NA
+"181289","6fa17b3d-91d5-4b61-a573-b285b8ba1a07","2018-08-24 19:16:46 UTC","Other","2018-07-07 18:31:33 UTC","2.10","2","10"
+"181432","33a6b5fc-ba3c-4e23-a70a-0a49717abd6c","2018-08-25 05:14:11 UTC","I don’t have enough time","2018-08-22 15:32:02 UTC","2.9","2","9"
+"153711","72669fb8-cc20-4b69-ba0a-241ff767b4de","2018-07-06 10:55:39 UTC","Other",NA,NA,NA,NA
+"162741","662e6b45-7695-4a2e-b395-d8c39b493d14","2018-07-23 01:27:36 UTC","Other",NA,NA,NA,NA
+"175430","a3d4ef1f-5d1e-4dfe-af3c-1acf068a7b37","2018-08-13 19:48:22 UTC","The course required more time than I realised",NA,NA,NA,NA
+"184295","36564302-f97e-42e9-ba35-dce935112269","2018-08-29 20:11:09 UTC","I prefer not to say",NA,NA,NA,NA
+"187244","b1821286-0c8a-4d9c-902c-712f9e5ccc46","2018-09-04 06:18:28 UTC","I don’t have enough time",NA,NA,NA,NA
+"190031","a1d58afb-bfbd-42d4-bc9b-dde8b6d41f67","2018-09-08 16:37:13 UTC","I don’t have enough time",NA,NA,NA,NA
+"190872","6cc783c0-af39-4032-907e-322d00a87d9e","2018-09-10 12:02:42 UTC","The course required more time than I realised","2018-09-10 11:02:46 UTC","2.23","2","23"
+"191077","98b2ec7f-99ce-451b-a80c-8b357a839aa8","2018-09-10 14:40:42 UTC","I don’t have enough time","2018-09-10 14:37:20 UTC","1.2","1","2"
+"191680","6d9adf51-b9dd-4a21-8fdc-5e4af8cb5611","2018-09-11 09:37:33 UTC","Other",NA,NA,NA,NA
+"191684","c53396a5-f72c-4dec-9810-cb7dd7608e1a","2018-09-11 09:51:33 UTC","The course was too hard","2018-09-11 09:50:19 UTC","1.12","1","12"
+"192449","6260fbcd-4746-4c9b-b049-4a25b75dfd93","2018-09-12 12:44:03 UTC","I don’t have enough time",NA,NA,NA,NA
+"192460","2a196b5a-bfdf-4a22-b7af-a7e1da577c70","2018-09-12 13:14:02 UTC","I don’t have enough time",NA,NA,NA,NA
+"193981","0448d51a-09d0-4740-aac7-5e351c42342c","2018-09-15 09:22:06 UTC","The course wasn’t what I expected",NA,NA,NA,NA
+"194121","f1b9f792-9f37-457f-8781-d5dc0b1e9a15","2018-09-15 16:18:39 UTC","The course required more time than I realised",NA,NA,NA,NA
+"194608","11299248-16b9-4e1c-9412-1f5d618b432a","2018-09-16 17:56:23 UTC","I prefer not to say","2018-09-16 17:46:32 UTC","3.20","3","20"
+"194669","733a8e68-570f-4095-afb5-ad9eff247ac5","2018-09-16 19:43:36 UTC","I don’t have enough time",NA,NA,NA,NA
+"194721","01a7c637-1a52-4848-8d48-af2bb804d858","2018-09-16 21:42:55 UTC","I don’t have enough time",NA,NA,NA,NA
+"194809","fa001738-ecab-459b-9c05-e41eb186edec","2018-09-17 02:08:18 UTC","I don’t have enough time",NA,NA,NA,NA
+"194827","a6145e0e-2155-46ad-bf43-4c3bdc451174","2018-09-17 03:05:00 UTC","I don’t have enough time","2018-09-11 02:00:06 UTC","1.1","1","1"
+"195124","4ae9bd77-e62a-4a44-864e-53d58c3ed4a4","2018-09-17 11:29:00 UTC","The course won’t help me reach my goals",NA,NA,NA,NA
+"195229","bced6b2e-1ab7-42ff-b325-4d82af90a910","2018-09-17 14:08:52 UTC","The course was too hard",NA,NA,NA,NA
+"195713","7fab3cf5-af8d-40d4-b609-3919517c2437","2018-09-18 06:49:40 UTC","Other",NA,NA,NA,NA
+"195897","c43ca5c4-2a5b-4d83-be64-b83225afa2a1","2018-09-18 11:07:35 UTC","I don’t have enough time",NA,NA,NA,NA
+"196121","00353a59-73a5-41e7-9b9e-fcd7a04accc9","2018-09-18 17:07:36 UTC","The course wasn’t what I expected","2018-09-18 17:07:11 UTC","1.3","1","3"
+"196136","fe3db0a6-8c64-4776-860d-c3320b87af0b","2018-09-18 17:29:41 UTC","The course was too easy",NA,NA,NA,NA
+"198054","29cbbe81-71b0-4f9e-8ed9-2076365d475f","2018-09-22 02:02:27 UTC","The course required more time than I realised",NA,NA,NA,NA
+"198236","70b8fe7d-4660-4fe2-830e-1eec2cf4bcfb","2018-09-22 14:43:09 UTC","I don’t have enough time",NA,NA,NA,NA
+"198483","6bd67f71-1303-46dd-aaac-273da896f889","2018-09-23 07:52:21 UTC","Other","2018-09-23 07:50:22 UTC","3.20","3","20"
+"198627","91149a14-ac5e-4665-9121-787c0bbc3f6c","2018-09-23 14:06:11 UTC","I prefer not to say",NA,NA,NA,NA
+"198899","a58fb44a-3070-4b6f-8f98-660145d6d424","2018-09-24 06:11:20 UTC","I prefer not to say","2018-09-24 06:10:18 UTC","3.17","3","17"
+"199733","b5d4de9f-402d-4bca-91c3-64964b3224de","2018-09-25 03:29:31 UTC","I don’t have enough time","2018-09-25 03:26:02 UTC","1.7","1","7"
+"199783","1a92c802-17dd-4b2b-a36d-ffa34e1d33b5","2018-09-25 07:16:49 UTC","Other",NA,NA,NA,NA
+"200011","71b6875a-d342-49d3-8691-55f251b7a42a","2018-09-25 13:16:10 UTC","I prefer not to say","2018-09-27 17:50:54 UTC","1.8","1","8"
+"200174","04d122eb-d1b8-4c9a-bf83-3480b9bd9101","2018-09-25 16:35:38 UTC","The course required more time than I realised",NA,NA,NA,NA
+"200613","054639ed-dc23-4202-a036-65acd95c53b6","2018-09-26 13:26:24 UTC","I don’t have enough time","2018-09-26 13:15:40 UTC","2.15","2","15"
+"202509","76534c17-ce5c-4a54-b284-77df37a92b7f","2018-09-30 13:34:16 UTC","Other","2018-09-30 13:33:50 UTC","3.20","3","20"
+"203953","fe4cf779-c99e-4a1f-8355-6e56fc387d37","2018-10-02 07:58:05 UTC","The course won’t help me reach my goals","2018-10-25 12:28:41 UTC","3.20","3","20"
+"205028","34a40227-a2c2-423e-82f0-07325c8405d5","2018-10-03 19:11:46 UTC","I prefer not to say",NA,NA,NA,NA
+"205341","d1b738ac-4f66-40d4-8d9d-53485ffd30b7","2018-10-04 12:33:24 UTC","Other",NA,NA,NA,NA
+"205452","3878ef34-264e-4871-b1c1-f3351b76cc1a","2018-10-04 16:53:23 UTC","I don’t have enough time","2018-09-19 17:38:13 UTC","2.3","2","3"
+"205559","01c21399-c537-4cca-a30d-1ba72db76927","2018-10-05 00:39:50 UTC","I don’t have enough time",NA,NA,NA,NA
+"205914","470171ac-7fc9-47bc-bfca-819682ae75ca","2018-10-05 18:23:58 UTC","I prefer not to say",NA,NA,NA,NA
+"206762","52f1ad84-065a-497d-acca-1443d4899f50","2018-10-07 18:16:14 UTC","I don’t have enough time","2018-09-22 07:12:11 UTC","2.18","2","18"
+"207320","6a5565d9-5755-4417-a275-015cc1777fb5","2018-10-08 11:50:31 UTC","I prefer not to say","2018-10-08 11:32:08 UTC","1.1","1","1"
+"207940","f6a44b29-472d-4c32-af15-a5dc0ab2ecdc","2018-10-08 22:53:41 UTC","The course won’t help me reach my goals","2018-10-01 14:13:05 UTC","1.3","1","3"
+"208240","bef73a59-b14f-4c5a-b593-90d41bfe8e84","2018-10-09 13:33:44 UTC","I don’t have enough time","2018-10-01 07:03:40 UTC","1.18","1","18"
+"208497","bb59b178-ea61-4e76-b130-5226564778fa","2018-10-09 19:51:43 UTC","The course wasn’t what I expected","2018-09-10 18:51:00 UTC","1.9","1","9"
+"208517","2fd52dc1-710d-49e5-b052-2ae893f4a495","2018-10-09 20:18:21 UTC","I prefer not to say",NA,NA,NA,NA
+"210586","6cfaa598-e213-4bef-8f6e-457e72fa0265","2018-10-13 19:09:55 UTC","I don’t have enough time",NA,NA,NA,NA
+"210842","532b41f3-e1ca-4f37-b420-41402eb166bb","2018-10-14 12:08:59 UTC","I don’t have enough time",NA,NA,NA,NA
+"210922","1af85c77-88eb-4f85-87a5-aecdbac4117b","2018-10-14 15:26:15 UTC","I don’t have enough time",NA,NA,NA,NA
+"211146","f036547b-3c94-480d-b2cf-fb3d0aee84ff","2018-10-14 20:45:58 UTC","I don’t have enough time",NA,NA,NA,NA
+"211453","3525a122-d068-446d-99c5-8f8f7468c0f2","2018-10-15 08:32:29 UTC","I don’t have enough time","2018-10-09 12:50:03 UTC","1.1","1","1"
+"211545","1d0a0f87-dd73-4ccd-9692-10b2eb37e556","2018-10-15 10:08:49 UTC","The course required more time than I realised",NA,NA,NA,NA
+"211716","cbae2e65-dcd9-46e1-a952-20d9b19d6b9f","2018-10-15 14:09:09 UTC","I don’t have enough time","2018-09-25 18:55:15 UTC","1.2","1","2"
+"212150","0c0fe7b0-8d6f-40ca-a010-3abfc47fea03","2018-10-16 09:56:32 UTC","I don’t have enough time",NA,NA,NA,NA
+"212539","43ae918d-9044-47c7-91df-c112751c7576","2018-10-16 21:36:30 UTC","The course wasn’t what I expected","2018-10-15 21:40:33 UTC","1.3","1","3"
+"212646","9c0c5265-b34b-4259-9fcd-aada53222f85","2018-10-17 06:19:37 UTC","I don’t have enough time","2018-10-16 12:20:38 UTC","1.3","1","3"
+"212665","46ca3312-e38b-45cf-a372-27c47e897ac7","2018-10-17 08:10:29 UTC","The course wasn’t what I expected","2018-09-14 07:47:29 UTC","1.6","1","6"
+"212748","5e7992f1-aa3a-423a-9b6d-a68c4bd53335","2018-10-17 10:13:11 UTC","I prefer not to say",NA,NA,NA,NA
+"213098","21a82eec-e56b-4f10-a704-96e800dbf351","2018-10-17 16:44:56 UTC","Other","2018-09-28 12:55:24 UTC","3.20","3","20"
+"213434","eabb572f-b661-4572-bdf8-8e0c5f20ccb9","2018-10-18 09:06:26 UTC","Other","2018-10-15 09:02:25 UTC","3.20","3","20"
+"214572","632e7d56-9300-4482-96ac-2218233086e1","2018-10-20 15:50:19 UTC","I don’t have enough time",NA,NA,NA,NA
+"214992","6cfaa598-e213-4bef-8f6e-457e72fa0265","2018-10-21 16:23:32 UTC","I don’t have enough time",NA,NA,NA,NA
+"215063","2b4475fd-c6be-4a7f-b903-1e994c47a33e","2018-10-21 17:55:10 UTC","I prefer not to say",NA,NA,NA,NA
+"216598","732b60fc-d132-4364-b37e-0e3a5c34f346","2018-10-23 10:45:30 UTC","Other","2018-09-21 22:53:58 UTC","1.2","1","2"
+"216679","dd850c2e-cb2e-4286-a862-e188ea7d33b1","2018-10-23 13:00:50 UTC","I prefer not to say",NA,NA,NA,NA
+"217307","13efa113-2b93-4aac-b5bb-98cb65740a3c","2018-10-24 11:33:34 UTC","I prefer not to say","2018-10-02 13:54:42 UTC","3.20","3","20"
+"217524","cd1ebf27-29a3-4d43-ac60-2548bdc125c7","2018-10-24 16:18:02 UTC","I don’t have enough time",NA,NA,NA,NA
+"217672","816847c6-be93-4d31-b5ec-5ad661890111","2018-10-24 20:57:28 UTC","I don’t have enough time","2018-09-19 20:18:34 UTC","1.1","1","1"
+"217833","a5688410-b358-4a0e-beb8-2f7bcaf7559d","2018-10-25 08:50:19 UTC","The course required more time than I realised",NA,NA,NA,NA
+"218116","a8add16b-09b9-47d5-a389-bb9a2a406b02","2018-10-25 19:12:43 UTC","I don’t have enough time",NA,NA,NA,NA
+"218706","7633fa84-3589-4ced-a9f0-4b658844b87f","2018-10-27 09:30:39 UTC","I don’t have enough time",NA,NA,NA,NA
+"219348","8287168a-987b-41eb-9a4d-a8327daac0d0","2018-10-28 17:13:05 UTC","Other","2018-09-24 20:15:46 UTC","3.20","3","20"
+"220201","af63ef86-1b17-4473-8843-65ebfaf643a8","2018-10-29 19:37:14 UTC","Other","2018-10-29 19:50:50 UTC","3.12","3","12"
+"220769","1d3f3d35-722f-4df6-a33d-05cab98cb014","2018-10-30 17:40:59 UTC","I don’t have enough time","2018-09-27 19:43:33 UTC","2.8","2","8"
+"220931","1e61bec6-d31a-42ba-8100-2fa67e176b37","2018-10-30 19:55:52 UTC","Other","2018-09-16 07:09:55 UTC","1.11","1","11"
+"221185","36e55c4f-9242-4031-9064-332d3da0f3ca","2018-10-31 10:11:03 UTC","The course won’t help me reach my goals","2018-10-01 07:58:19 UTC","3.13","3","13"
+"221386","eccf7f6e-5364-47b3-ada7-aaffe578d636","2018-10-31 14:39:19 UTC","Other","2018-09-23 13:57:58 UTC","2.23","2","23"
+"221447","f95b4663-e1ae-43f7-abb4-20d936310b70","2018-10-31 16:53:11 UTC","I don’t have enough time",NA,NA,NA,NA
